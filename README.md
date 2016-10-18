@@ -1,7 +1,7 @@
 # bc_command
 data_structures_miniproject
-Currently as on 18th October, only the comparison and addition functions are working properly. 
-Very shortly from now, I will also finsish writing the subtraction, multiplication and division functions as well for arbirary precision floating point numbers (obviously including negative numbers also.)
+Currently as on 18th October, addition function is working properly. Two strings can be input, and thus you can compute with integers of unlimited length. It can work on arbitrary precision floating point accuracy.  
+Very shortly from now, I will also finsish writing the subtraction, multiplication and division functions as well for arbirary precision floating point numbers. (obviously including negative numbers also.)
 
 After completing this I will write code to evaluate infix, and postfix expressions. Further, I will also write code for the evaluation of the exponent function and other trigonometric functions like sine, cosine, tangent, etc. 
 
