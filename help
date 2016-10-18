@@ -1,5 +1,5 @@
-Enter any two numbers of infinite length with floating point precision. 
-Followed by that enter an operator among +, - or *. The output will be generated and printed on screen. 
+Enter any two numbers of infinite length with floating point precision. Enter both the numbers without any external characters other than digits.
+Followed by that enter an operator among +, <, > or = . The output will be generated and printed on screen. 
 Following this for now, you will have to terminate the program and run it again, if you want to see outputs multiple times.
 
-(In the final version, infix expressions will be properly evaluated, so that only 2 numbers need not be given. Also I will make the program which will take inputs infinite times, so that the project need not be restarted causing unnecessary disturbance.)
+(In the final version, infix expressions will be properly evaluated, so that only 2 numbers need not be given. Also I will make the program which will take inputs infinite times.)
