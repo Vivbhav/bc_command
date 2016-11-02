@@ -1,10 +1,11 @@
 # bc_command
+# Infinite Calculator
 data_structures_miniproject
-Currently as on 18th October, addition function is working properly. Two strings can be input, and thus you can compute with integers of unlimited length. It can work on arbitrary precision floating point accuracy.  
-Very shortly from now, I will also finsish writing the subtraction, multiplication and division functions as well for arbirary precision floating point numbers. (obviously including negative numbers also.)
+Name : Vivek Bhave
+MIS ID : 111508015
 
-After completing this I will write code to evaluate infix, and postfix expressions. Further, I will also write code for the evaluation of the exponent function and other trigonometric functions like sine, cosine, tangent, etc. 
+For complex calculations, many a times we can see that the size of numbers used is far larger than the range of signed or unsigned integers, floats and doubles in C. Thus, there is a need for programs which can perform arithmetic operations with arbitrary precision on any given numbers.
 
-Further the code will also add features of Inverse Trigonometric Functions like arcsin, arccosine, etc. and also deal with change of base for providing input and giving output. 
+This project is one such attempt to write a program which computes with arbitrary precision. This project has many functions like addition, subtraction, multiplication and division. ALong with that, the codes also support operations like comparison, logical operations, modulus function, etc all of these too, with arbitrary precision. 
 
-The addition of all these features will then make the project almost equivalent to the bc command operational on Linux.
+This project is thus in it's complete sense one big step towards huge libraries which can support many more functions as well for such large numbers.
