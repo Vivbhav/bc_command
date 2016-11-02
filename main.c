@@ -157,5 +157,15 @@ int main(int argc, char* argv[]) {
 			printf("The scale of %s is %d.\n\n",str1, d); 
 			continue;
 		}
+		if(!strcmp(op,"&&")) {
+			d = logical_and(a, b);
+			printf("%d\n\n",d);
+			continue;
+		}
+		if(!strcmp(op,"||")) {
+			d = logical_or(a, b);
+			printf("%d\n\n",d);
+			continue;
+		}
 	}
 }
