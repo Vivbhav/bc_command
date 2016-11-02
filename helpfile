@@ -1,0 +1,23 @@
+This software can perform the following operations on any two given numbers of infinite length with arbitrary precision -
+1.  Addition
+2.  Subtraction
+3.  Multiplication
+4.  Division
+5.  Exponent
+6.  Greater than >
+7.  Lesser than <
+8.  Equal to ==
+9.  Greater equals >=
+10. Lesser equals <=
+11. Equals =
+6. Modulus
+7. Sine
+8. Cosine
+9. Tangent
+
+For executing any operation, run the executable file ./project.
+After this, enter the first number, then the operator of your choice and then the second number.
+The corresponding output will be printed on the screen.
+
+After this, the program waits for the next set of input and will further compute the answer.
+After you are done with the input just press, Ctrl + D, or Ctrl + C to stop the program.
