@@ -65,43 +65,60 @@ int main(int argc, char* argv[]) {
 		if(!strcmp(op, "+")) {
 			result = addition(a , b);
 			printf("%s + %s = ",str, str1);
-			convert_decimal_tobase(result, base);
-//			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
 		if(!strcmp(op, "-")) {
 			result = subtract(a , b);
 			printf("%s - %s = ", str, str1);
-			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
 		if(!strcmp(op, "*")) {
 			result = multiplication(a , b);
 			printf("%s * %s = ",str, str1);
-			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
 		if(!strcmp(op, "/")) {
 			result = division(a , b);
 			printf("%s / %s = ", str, str1);
-			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
 		if(!strcmp(op, "^")) {
 			result = power(a,b);
 			printf("%s ^ %s = ",str, str1);
-			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
 		if(!strcmp(op, "%")) {
 			result = modulus(a , b);
 			printf("%s mod %s = ", str, str1);
-			print_number(result);
+			if(strcmp(argv[1], "-b") == 0) 
+				convert_decimal_tobase(result, base);
+			else
+				print_number(result);
 			printf("\n");
 			continue;
 		}
