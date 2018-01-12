@@ -35,6 +35,10 @@ int main(int argc, char* argv[]) {
 			fclose(fp);
 			exit(0);
 		}
+		else if(strcmp(argv[1], "--ds") == 0) {
+			printf("typedef struct number {\n	char *num;\n	int intlen;\n	int declen;\n	int sign;\n} number;\n");
+			exit(0);
+		}
 		else {
 			printf("Give command line arguement as -h for help. If you want to run the program directly, run the code without any command line arguements.\n");
 			exit(0);
