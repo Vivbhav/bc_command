@@ -75,7 +75,7 @@ int base_legal(number a, int b) {
 number convert_decimal_tobase(number a, int b) {
 	int mod;
 	int n = atoi(a.num);
-	printf("The received number is %d.\n",n);
+//	printf("The received number is %d.\n",n);
 	char str[20];
 	char *str1;
 	int j = 0;
@@ -87,8 +87,9 @@ number convert_decimal_tobase(number a, int b) {
 		j++;
 	}
 	int i;
+	
 //	str1 = strrev(str);			
-	for(i = 0 ; i <= j;i++) 	
+	for(i = j - 1 ; i >= 0 ;i--) 	
 		printf("%c",str[i]);
 	printf("\n");
 	//printf("The output string is %s.\n",str);
