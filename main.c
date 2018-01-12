@@ -20,6 +20,7 @@
 #include"functions.h"
 
 int main(int argc, char* argv[]) {
+	int base = 10;
 	if(argc > 2) {
 		perror("Bad arguements.\n");
 		exit(0);
@@ -34,6 +35,10 @@ int main(int argc, char* argv[]) {
 				printf("%c",ch);
 			fclose(fp);
 			exit(0);
+		}
+		else if(strcmp(argv[1], "-b") == 0) {
+			printf("Enter the obase you choose\n");
+			scanf("%d",&base);	
 		}
 		else if(strcmp(argv[1], "--ds") == 0) {
 			printf("typedef struct number {\n	char *num;\n	int intlen;\n	int declen;\n	int sign;\n} number;\n");
@@ -60,7 +65,8 @@ int main(int argc, char* argv[]) {
 		if(!strcmp(op, "+")) {
 			result = addition(a , b);
 			printf("%s + %s = ",str, str1);
-			print_number(result);
+			convert_decimal_tobase(result, base);
+//			print_number(result);
 			printf("\n");
 			continue;
 		}
