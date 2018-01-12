@@ -21,3 +21,5 @@ The corresponding output will be printed on the screen.
 
 After this, the program waits for the next set of input and will further compute the answer.
 After you are done with the input just press, Ctrl + D, or Ctrl + C to stop the program.
+
+Use ./project --ds to see the Data Structure used.
