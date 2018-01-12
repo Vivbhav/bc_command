@@ -10,10 +10,11 @@ This software can perform the following operations on any two given numbers of i
 9.  Greater equals >=
 10. Lesser equals <=
 11. Equals =
-12. Modulus
-13. Sine
-14. Cosine
-15. Tangent
+12. Not Equals !=
+13. Modulus
+14. Sine
+15. Cosine
+16. Tangent
 
 For executing any operation, run the executable file ./project.
 After this, enter the first number, then the operator of your choice and then the second number.
@@ -23,3 +24,8 @@ After this, the program waits for the next set of input and will further compute
 After you are done with the input just press, Ctrl + D, or Ctrl + C to stop the program.
 
 Use ./project --ds to see the Data Structure used.
+
+Use ./project -b to use the obase feature.
+
+For help regarding usage of the obase feature, use:
+./project -b --usage

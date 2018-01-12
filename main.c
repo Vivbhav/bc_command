@@ -21,7 +21,7 @@
 
 int main(int argc, char* argv[]) {
 	int base = 10;
-	if(argc > 2) {
+	if(argc > 3) {
 		perror("Bad arguements.\n");
 		exit(0);
 	}
@@ -37,6 +37,12 @@ int main(int argc, char* argv[]) {
 			exit(0);
 		}
 		else if(strcmp(argv[1], "-b") == 0) {
+			if(argc == 3){
+				if(strcmp(argv[2],"--usage") == 0){
+					printf("Base\t//Enter the base of your choice\noperand1  operation  operand2\n");
+				}
+				return 0;
+			}
 			printf("Enter the obase you choose\n");
 			scanf("%d",&base);	
 		}
